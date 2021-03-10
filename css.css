@@ -1,0 +1,73 @@
+img{
+    padding-right: 80px;
+    border-radius: 8px;
+    }
+
+
+body{
+    background-color: silver;
+    }
+.nav {
+    overflow: hidden;
+    background-color: black;
+    }        
+
+.nav a{
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+.nav a:hover {
+    background-color: rgb(240, 235, 235);
+    color: black;
+    }
+    .project {
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: rgb(197, 197, 97);
+        }
+    .project:hover{
+        background-color: orange;
+        color: black;     
+    }
+    .project {
+        float: left;
+        width: 26%;
+        padding: 20px;
+    }
+@media screen and (max-width: 992px) {
+.project {
+width: 60%;
+}
+}
+@media screen and (max-width: 600px) {
+.project {
+width: 100%;
+}
+}
+table, th, td{
+    border: 2px solid black;
+    padding:20px;
+    border-collapse: collapse;
+    text-align: left;
+    
+    }
+    .links a{
+
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+    a:hover {
+        
+        color: black;
+        }
